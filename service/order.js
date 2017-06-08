@@ -4,6 +4,7 @@ module.exports = {
 	getOrderList:function(req, res){
 		var deferred = q.defer();
 		var pageIndex = req.query.pageIndex;
+		console.log(pageIndex);
 		var data = [];
 		for(let i=1;i<=10;i++){
 			data.push({
