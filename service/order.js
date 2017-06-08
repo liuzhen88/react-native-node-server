@@ -3,7 +3,7 @@ var q = require('q');
 module.exports = {
 	getOrderList:function(req, res){
 		var deferred = q.defer();
-		console.log(req);
+		console.log(req.query);
 		var pageIndex = req.query.sendData.pageIndex;
 		console.log(pageIndex);
 		var data = [];
