@@ -15,4 +15,12 @@ router.get('/getOrderList',function(req, res){
 	});
 });
 
+router.get('/getCanlendarData',function(req, res){
+	orderService.getCanlendarData(req, res).then(function(data){
+		res.send(data);
+	}).fail(function(err){
+		res.send(err);
+	});
+});
+
 module.exports = router;
