@@ -43,6 +43,13 @@ module.exports = {
 		      "Price": 100.0,
 		      "Currency": 1,
 		      "HasPrice": true
+		    },
+		    {
+		      "Year": 2017,
+		      "Month": 9,
+		      "Price": 200.0,
+		      "Currency": 1,
+		      "HasPrice": true
 		    }
 		  ],
 		  "LinePriceList": [
@@ -52,11 +59,18 @@ module.exports = {
 		      "IsValid": true,
 		      "LegalHolidayName": "¹úÇì",
 		      "Currency": 0
+		    },
+		    {
+		      "SalesDate": "2017-06-10T18:57:45.4407539+08:00",
+		      "SalesPrice": 100.0,
+		      "IsValid": true,
+		      "LegalHolidayName": "¹úÇì",
+		      "Currency": 0
 		    }
 		  ],
 		  "TheLastDate": "0001-01-01T00:00:00",
 		  "Year":2017,
-		  "Month":8,
+		  "Month":9,
 		  "Header": null
 		}
 
