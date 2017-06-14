@@ -50,6 +50,41 @@ module.exports = {
 		      "Price": 200.0,
 		      "Currency": 1,
 		      "HasPrice": true
+		    },
+		    {
+		      "Year": 2017,
+		      "Month": 10,
+		      "Price": 200.0,
+		      "Currency": 1,
+		      "HasPrice": true
+		    },
+		    {
+		      "Year": 2017,
+		      "Month": 11,
+		      "Price": 200.0,
+		      "Currency": 1,
+		      "HasPrice": true
+		    },
+		    {
+		      "Year": 2017,
+		      "Month": 12,
+		      "Price": 200.0,
+		      "Currency": 1,
+		      "HasPrice": true
+		    },
+		    {
+		      "Year": 2018,
+		      "Month": 1,
+		      "Price": 200.0,
+		      "Currency": 1,
+		      "HasPrice": true
+		    },
+		    {
+		      "Year": 2018,
+		      "Month": 2,
+		      "Price": 200.0,
+		      "Currency": 1,
+		      "HasPrice": true
 		    }
 		  ],
 		  "LinePriceList": [
@@ -69,8 +104,8 @@ module.exports = {
 		    }
 		  ],
 		  "TheLastDate": "0001-01-01T00:00:00",
-		  "Year":2017,
-		  "Month":9,
+		  "Year":2018,
+		  "Month":2,
 		  "Header": null
 		}
 
