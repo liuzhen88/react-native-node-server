@@ -23,4 +23,12 @@ router.get('/getCanlendarData',function(req, res){
 	});
 });
 
+router.post('/testParams',function(req, res){
+	orderService.testParams(req, res).then(function(data){
+		res.send(data);
+	}).fail(function(err){
+		res.send(err);
+	});
+});
+
 module.exports = router;

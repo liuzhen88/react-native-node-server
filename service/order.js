@@ -111,5 +111,15 @@ module.exports = {
 
 		deferred.resolve(data);
 		return deferred.promise;
+	},
+	testParams:function(req, res){
+		var deferred = q.defer();
+		var readType = req.body.readtype;
+		deferred.resolve({
+			'code':'200',
+			'message':'您传的参数是readtype='+readType
+		});
+
+		return deferred.promise;
 	}
 }
