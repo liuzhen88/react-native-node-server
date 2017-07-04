@@ -32,7 +32,7 @@ router.post('/testParams',function(req, res){
 	});
 });
 
-router.get('/testPush',function(){
+router.get('/testPush',function(req, res){
 	pushService.testPush(req, res).then(function(data){
 		res.send(data);
 	}).fail(function(err){
