@@ -1,5 +1,5 @@
 var q = require('q');
-var JPush = require("../lib/JPush/JPush.js");
+var JPush = require("jpush-sdk");
 
 module.exports = {
 	testPush:function(req, res){
