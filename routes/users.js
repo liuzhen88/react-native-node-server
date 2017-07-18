@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var orderService = require('../service/order');
 var pushService = require('../service/push');
+var imageCode = require('../service/code');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
@@ -36,6 +37,14 @@ router.get('/testPush',function(req, res){
 	pushService.testPush(req, res).then(function(data){
 		res.send(data);
 	}).fail(function(err){
+		res.send(err);
+	});
+});
+
+router.get('/imageCode',function (req, res) {
+	imageCode.getImageCode(req, res).then(function (data) {
+		res.send(data);
+	}).fail(function (err) {
 		res.send(err);
 	});
 });
