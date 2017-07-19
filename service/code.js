@@ -5,7 +5,7 @@ var fs = require('fs');
 
 var tool = {
     writeImageBuffer:function (buffer, callback) {
-        fs.writeFile('./buffer.jpg',buffer,function (err) {
+        fs.writeFile('./public/buffer.jpg',buffer,function (err) {
            if(err){
                callback(err);
            }else{
