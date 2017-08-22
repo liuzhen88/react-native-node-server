@@ -131,44 +131,11 @@ module.exports = {
 			data = [
 				{
 					'time':'16',
-					'value':150
-				},
-				{
-					'time':'17',
-					'value':200
-				},
-				{
-					'time':'18',
-					'value':150
-				},
-				{
-					'time':'19',
-					'value':200
-				},
-				{
-					'time':'20',
-					'value':150
-				},
-				{
-					'time':'21',
-					'value':200
-				},
-				{
-					'time':'22',
-					'value':100
-				}
-			]
-		}
-
-		if(type == '0'){
-			data = [
-				{
-					'time':'16',
 					'value':123
 				},
 				{
 					'time':'17',
-					'value':121
+					'value':221
 				},
 				{
 					'time':'18',
@@ -180,7 +147,7 @@ module.exports = {
 				},
 				{
 					'time':'20',
-					'value':133
+					'value':233
 				},
 				{
 					'time':'21',
@@ -188,7 +155,40 @@ module.exports = {
 				},
 				{
 					'time':'22',
-					'value':482
+					'value':282
+				}
+			]
+		}
+
+		if(type == '0'){
+			data = [
+				{
+					'time':'16',
+					'value':223
+				},
+				{
+					'time':'17',
+					'value':221
+				},
+				{
+					'time':'18',
+					'value':128
+				},
+				{
+					'time':'19',
+					'value':276
+				},
+				{
+					'time':'20',
+					'value':183
+				},
+				{
+					'time':'21',
+					'value':288
+				},
+				{
+					'time':'22',
+					'value':182
 				}
 			]
 		}
