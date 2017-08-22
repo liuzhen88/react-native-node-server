@@ -127,7 +127,7 @@ module.exports = {
 		var type = req.query.type;
 		var data = [];
 
-		if(type == '0'){
+		if(type == '1'){
 			data = [
 				{
 					'time':'16',
@@ -160,35 +160,35 @@ module.exports = {
 			]
 		}
 
-		if(type == '1'){
+		if(type == '0'){
 			data = [
 				{
 					'time':'16',
-					'value':150
+					'value':123
 				},
 				{
 					'time':'17',
-					'value':200
+					'value':121
 				},
 				{
 					'time':'18',
-					'value':150
+					'value':128
 				},
 				{
 					'time':'19',
-					'value':200
+					'value':226
 				},
 				{
 					'time':'20',
-					'value':150
+					'value':133
 				},
 				{
 					'time':'21',
-					'value':200
+					'value':288
 				},
 				{
 					'time':'22',
-					'value':100
+					'value':482
 				}
 			]
 		}
