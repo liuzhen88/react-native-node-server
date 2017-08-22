@@ -263,19 +263,19 @@ module.exports = {
 			data = [
 				{
 					'time':'16',
-					'value':150
+					'value':120
 				},
 				{
 					'time':'17',
-					'value':200
+					'value':140
 				},
 				{
 					'time':'18',
-					'value':150
+					'value':100
 				},
 				{
 					'time':'19',
-					'value':200
+					'value':111
 				},
 				{
 					'time':'20',
@@ -283,11 +283,11 @@ module.exports = {
 				},
 				{
 					'time':'21',
-					'value':200
+					'value':99
 				},
 				{
 					'time':'22',
-					'value':100
+					'value':145
 				}
 			]
 		}
