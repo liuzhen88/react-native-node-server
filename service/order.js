@@ -296,31 +296,31 @@ module.exports = {
 			data = [
 				{
 					'time':'16',
-					'value':150
+					'value':80
 				},
 				{
 					'time':'17',
-					'value':200
+					'value':82
 				},
 				{
 					'time':'18',
-					'value':150
+					'value':77
 				},
 				{
 					'time':'19',
-					'value':200
+					'value':68
 				},
 				{
 					'time':'20',
-					'value':150
+					'value':92
 				},
 				{
 					'time':'21',
-					'value':200
+					'value':70
 				},
 				{
 					'time':'22',
-					'value':100
+					'value':92
 				}
 			]
 		}
