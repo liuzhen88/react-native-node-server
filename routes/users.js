@@ -49,4 +49,12 @@ router.get('/imageCode',function (req, res) {
 	});
 });
 
+router.get('/transaction',function(req, res){
+	orderService.transaction(req, res).then(function(data){
+		res.send(data);
+	}).fail(function(err){
+		res.send(err);
+	})
+});
+
 module.exports = router;

@@ -121,5 +121,211 @@ module.exports = {
 		});
 
 		return deferred.promise;
+	},
+	transaction:function(req, res){
+		var deferred = q.defer();
+		var type = req.query.type;
+		var data = [];
+
+		if(type == '0'){
+			data = [
+				{
+					'time':'16',
+					'value':150
+				},
+				{
+					'time':'17',
+					'value':200
+				},
+				{
+					'time':'18',
+					'value':150
+				},
+				{
+					'time':'19',
+					'value':200
+				},
+				{
+					'time':'20',
+					'value':150
+				},
+				{
+					'time':'21',
+					'value':200
+				},
+				{
+					'time':'22',
+					'value':100
+				}
+			]
+		}
+
+		if(type == '1'){
+			data = [
+				{
+					'time':'16',
+					'value':150
+				},
+				{
+					'time':'17',
+					'value':200
+				},
+				{
+					'time':'18',
+					'value':150
+				},
+				{
+					'time':'19',
+					'value':200
+				},
+				{
+					'time':'20',
+					'value':150
+				},
+				{
+					'time':'21',
+					'value':200
+				},
+				{
+					'time':'22',
+					'value':100
+				}
+			]
+		}
+
+		if(type == '2'){
+			data = [
+				{
+					'time':'16',
+					'value':150
+				},
+				{
+					'time':'17',
+					'value':200
+				},
+				{
+					'time':'18',
+					'value':150
+				},
+				{
+					'time':'19',
+					'value':200
+				},
+				{
+					'time':'20',
+					'value':150
+				},
+				{
+					'time':'21',
+					'value':200
+				},
+				{
+					'time':'22',
+					'value':100
+				}
+			]
+		}
+
+		if(type == '3'){
+			data = [
+				{
+					'time':'16',
+					'value':150
+				},
+				{
+					'time':'17',
+					'value':200
+				},
+				{
+					'time':'18',
+					'value':150
+				},
+				{
+					'time':'19',
+					'value':200
+				},
+				{
+					'time':'20',
+					'value':150
+				},
+				{
+					'time':'21',
+					'value':200
+				},
+				{
+					'time':'22',
+					'value':100
+				}
+			]
+		}
+
+		if(type == '4'){
+			data = [
+				{
+					'time':'16',
+					'value':150
+				},
+				{
+					'time':'17',
+					'value':200
+				},
+				{
+					'time':'18',
+					'value':150
+				},
+				{
+					'time':'19',
+					'value':200
+				},
+				{
+					'time':'20',
+					'value':150
+				},
+				{
+					'time':'21',
+					'value':200
+				},
+				{
+					'time':'22',
+					'value':100
+				}
+			]
+		}
+
+		if(type == '5'){
+			data = [
+				{
+					'time':'16',
+					'value':150
+				},
+				{
+					'time':'17',
+					'value':200
+				},
+				{
+					'time':'18',
+					'value':150
+				},
+				{
+					'time':'19',
+					'value':200
+				},
+				{
+					'time':'20',
+					'value':150
+				},
+				{
+					'time':'21',
+					'value':200
+				},
+				{
+					'time':'22',
+					'value':100
+				}
+			]
+		}
+
+		deferred.resolve(data);
+		return deferred.promise;
 	}
 }
