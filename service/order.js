@@ -197,31 +197,31 @@ module.exports = {
 			data = [
 				{
 					'time':'16',
-					'value':150
+					'value':62880
 				},
 				{
 					'time':'17',
-					'value':200
+					'value':52410
 				},
 				{
 					'time':'18',
-					'value':150
+					'value':74360
 				},
 				{
 					'time':'19',
-					'value':200
+					'value':48746
 				},
 				{
 					'time':'20',
-					'value':150
+					'value':66235
 				},
 				{
 					'time':'21',
-					'value':200
+					'value':99214
 				},
 				{
 					'time':'22',
-					'value':100
+					'value':49753
 				}
 			]
 		}
