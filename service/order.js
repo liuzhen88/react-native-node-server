@@ -327,5 +327,14 @@ module.exports = {
 
 		deferred.resolve(data);
 		return deferred.promise;
+	},
+	getData:function(req, res){
+		var deferred = q.defer();
+		var data = JSON.parse(sendParams);
+		deferred.resolve({
+			page:data.page,
+			rows:data.rows
+		});
+		return deferred.promise;
 	}
 }

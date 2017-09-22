@@ -57,4 +57,12 @@ router.get('/transaction',function(req, res){
 	})
 });
 
+router.post('/getData',function(req,res){
+	orderService.getData(req, res).then(function(data){
+		res.send(data);
+	}).fail(function(err){
+		res.send(err);
+	})
+});
+
 module.exports = router;
