@@ -330,7 +330,7 @@ module.exports = {
 	},
 	getData:function(req, res){
 		var deferred = q.defer();
-		var data = JSON.parse(sendParams);
+		var data = JSON.parse(req.body.sendParams);
 		deferred.resolve({
 			page:data.page,
 			rows:data.rows
