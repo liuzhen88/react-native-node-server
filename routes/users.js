@@ -65,4 +65,12 @@ router.post('/getData',function(req,res){
 	})
 });
 
+router.get('/test',function(req, res){
+	orderService.getData(req, res).then(function(data){
+		res.jsonp(data);
+	}).fail(function(err){
+		res.jsonp(err);
+	})
+});
+
 module.exports = router;

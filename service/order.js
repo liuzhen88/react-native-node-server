@@ -124,7 +124,7 @@ module.exports = {
 	},
 	transaction:function(req, res){
 		var deferred = q.defer();
-		var type = req.query.type;
+		var type = req.query.type || '1';
 		var data = [];
 
 		if(type == '1'){
